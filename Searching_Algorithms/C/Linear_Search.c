@@ -5,9 +5,10 @@ int search(int arr[],int n, int x)
     int i;
     for (i = 0; i < n; i++)
     {
-        if(arr[i] == x) return i;
-        else return -1;
+        if(arr[i] == x) 
+            return i;
     }
+    return -1;
     
 }
 
